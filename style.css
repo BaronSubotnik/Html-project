@@ -1,8 +1,153 @@
-body {
-	font-family: Arial, sans-serif;
-	background-color: #f2f2f2;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-h1 {
-	color: darkblue;
+.navBar{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: sticky;
+    top: 100px;
+    width: 100%;
+    max-width: 1296px;
+    height: 101px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.logo{
+    margin-left: 50px;
+    width: 150px;
+    height: 45px;
+}
+
+.navItems{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.cartLogo{
+    width: 100%;
+    height: 100%;
+    width: 17px;
+    height: 17px;
+
+}
+
+.navTextSizeOrShrift{
+    font-size: 17px;
+    font-family:'Plus Jakarta Sans', Times, serif
+}
+
+.cartItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.SingUpBtnTextStyle{
+    font-size: 18px;
+    font-family:'Plus Jakarta Sans', Times, serif
+}
+
+.SingUpBTN{
+    width: 219px;
+    height: 61px;
+    background-color: #F5F5F5;
+    border: 1px solid #707371;
+    border-radius: 15px;
+}
+
+.rightBar{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.refNoColor{
+    text-decoration: none;
+    color: inherit;
+}
+
+.footerLogo{    
+    width: 152px;
+    height: 46px;
+    
+}
+
+.footerContainer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 1296px;
+    margin: 0 auto;
+    
+    
+}
+
+.textFooterHeadLine{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family:'Plus Jakarta Sans', Times, serif;
+}
+
+.textItem{
+    font-size: 19px;
+    font-family:'Plus Jakarta Sans', Times, serif;
+}
+
+.itemDisplay{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.footerColumn{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+
+}
+
+.footerColumns{
+    display: flex;
+    gap: 80px;
+}
+
+.footerIconsDisplay{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footerIcon{
+    width: 22px;
+    height: 20px;
+}
+
+footer {
+    width: 100%;
+    padding: 80px 20px 0px 20px;
+}
+
+.footerBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1296px;
+    width: 100%;
+    margin: 120px auto 0 auto;
+    
+}
+
+.footerBottomTextStyle{
+    font-size: 16px;
+    font-family:'Plus Jakarta Sans', Times, serif;
 }
