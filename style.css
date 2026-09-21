@@ -153,7 +153,9 @@ footer {
 }
 
 .textCurrentFontFamily{
-    font-family:'Plus Jakarta Sans', Times, serif;
+    font-family:'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
 }
 .textSize63{
     font-size: 63px;
@@ -166,14 +168,14 @@ footer {
 .oneFrame{
     display: flex;
     align-items: center;
-    gap: 100px;
+    gap: 180px;
     width: 100%;
     height: 100%;
     max-width: 1200px;
     max-height: 761px;
     padding-top: 40px;
     margin: 0 auto;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 .leftFrame{
@@ -266,3 +268,120 @@ footer {
     left: -10px;
     z-index: 3;
 }
+
+.pointPerple{
+    width: 16px;
+    height: 16px;
+
+    top: 430px;
+    left: -20px;
+    z-index: 1;
+}
+
+.sponsors{
+    margin-top: 70px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.text22px{
+    font-size: 22px;
+}
+
+
+.sponsorsIconContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+}
+
+.featuresAndResultsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    width: 1200px;
+    height: 885px;
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+
+    
+}
+
+.featuresAndResultsContainer .textItem{
+    max-width: 612px;
+    max-height: 135px;
+    margin-top: 100px;
+    gap: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.text43px{
+    font-size: 43px;
+}
+
+.text42px{
+    font-size: 42px;
+}
+
+.textItem .textMini{
+    color: #545479;
+    width: 554px;
+    height: 58px;
+}
+.textItem .textBig{
+    width: 605px;
+    height: 79px;
+}
+
+
+.featuresAndResultsContainer .iconsItems{
+    width: 1200px;
+    height: 490px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconsItems .iconItemLine{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+}
+
+.iconItemLine .iconItem{
+    width: 300px;
+    height: 245px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 31px;
+
+    
+}
+
+.iconItem .icon{
+    height: 80px;
+    width: 80px;
+}
+
+.textSize24{
+    font-size: 24px;
+}
+
+
+
+
