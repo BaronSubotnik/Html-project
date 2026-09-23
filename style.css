@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: 0.4s;
 }
 
 .navBar{
@@ -503,7 +504,7 @@ footer {
     margin: 280px auto;
     
     
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 .buildFrameContainer .buildLeftFrame{
@@ -513,7 +514,7 @@ footer {
     flex-direction: column;
     align-items: flex-start;
     
-    border: 1px solid green;
+    /*border: 1px solid green;*/
 }
 .buildLeftFrame .bigTextItem{
     width: 432px;
@@ -567,12 +568,61 @@ footer {
     margin-top: 48px;
 }
 
+.buildLeftFrame .yellowPointItem{
+    position: relative;
+    left: 308px;
+    top: 14px;
+    
+}
+
 .buildFrameContainer .buildRightFrame{
+    position: relative;
+    
     width: 624px;
     height: 573px;
     
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top: -170px;
+    margin-left: 245px;
+    /*border: 1px solid aquamarine;*/
+}
+
+.accesFrameContainer{
+    width: 1200px;
+    height: 623px;
+    margin: -100px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    border: 1px solid red;
+}
+
+.accesFrameContainer .imageLeftFrame{
+    width: 623px;
+    height: 623px;
+    
     border: 1px solid aquamarine;
 }
+
+.accesFrameContainer .accessRightFrame{
+    width: 432px;
+    height: 534px;
+    display: flex;
+    justify-content: flex-start;
+    
+    border: 1px solid green;
+}
+
+
+
+
+
+
+
 
 
 
