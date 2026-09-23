@@ -590,6 +590,7 @@ footer {
 }
 
 .accesFrameContainer{
+    position: relative;
     width: 1200px;
     height: 623px;
     margin: -100px auto 0 auto;
@@ -613,8 +614,70 @@ footer {
     height: 534px;
     display: flex;
     justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
     
     border: 1px solid green;
+}
+
+.accessRightFrame .accesbigTextItem{
+    width: 297px;
+    height: 112px;
+    font-size: 48px;
+}
+
+.accessRightFrame .accesTwoBigTextItem{
+    width: 355px;
+    height: 112px;
+    font-size: 43px;
+}
+
+.accessRightFrame .smallAccesTextItem{
+    margin-top: 26px;
+    width: 425px;
+    height: 87px;
+    font-size: 17px;
+    color: #545479;
+    border: 1px solid red;
+}
+
+
+.accessRightFrame .line{
+    border: none;
+    width: 432px;
+    height: 1px;
+    background-color: #080829;
+    opacity: 30%;
+    margin-top: 23px;
+}
+
+.accessRightFrame .logoSponsors{
+    display: flex;
+    width: 432px;
+    height: 141px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logoSponsors .logoSponsorsLine{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+}
+
+.logoSponsorsLine .logoItem{
+    width: 126px;
+    height: 71px;
+}
+
+.purplePoint{
+    position: absolute;
+    top: 39px;
+    left: 1000px;
+    z-index: 10;
 }
 
 
