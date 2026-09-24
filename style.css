@@ -586,7 +586,7 @@ footer {
     align-items: flex-start;
     margin-top: -170px;
     margin-left: 245px;
-    /*border: 1px solid aquamarine;*/
+
 }
 
 .accesFrameContainer{
@@ -599,14 +599,14 @@ footer {
     align-items: center;
     
     
-    border: 1px solid red;
+
 }
 
 .accesFrameContainer .imageLeftFrame{
     width: 623px;
     height: 623px;
     
-    border: 1px solid aquamarine;
+    
 }
 
 .accesFrameContainer .accessRightFrame{
@@ -616,8 +616,7 @@ footer {
     justify-content: flex-start;
     flex-direction: column;
     gap: 10px;
-    
-    border: 1px solid green;
+
 }
 
 .accessRightFrame .accesbigTextItem{
@@ -638,7 +637,7 @@ footer {
     height: 87px;
     font-size: 17px;
     color: #545479;
-    border: 1px solid red;
+
 }
 
 
@@ -675,10 +674,228 @@ footer {
 
 .purplePoint{
     position: absolute;
-    top: 39px;
-    left: 1000px;
+    top: 4370px;
+    left: 1534px;
     z-index: 10;
 }
+
+
+.issimpleFrameContainer{
+    width: 1200px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 80px auto 0 auto;
+    gap: 80px;
+    
+    /*border: 1px solid red;*/
+}
+
+.issimpleFrameContainer .topTextItem{
+    font-size: 43px;
+    width: 609px;
+    height: 55px;
+    
+}
+
+.issimpleFrameContainer .bottomImageAndTextContainer{
+    display: flex;
+    width: 1200px;
+    height: 464px;
+    justify-content: space-between;
+    align-items: center;
+    /*border: 1px solid aquamarine;*/
+}
+
+.bottomImageAndTextContainer .bottomItem{
+    display: flex;
+    width: 340px;
+    height: 465px;
+    flex-direction: column;
+}
+.bottomItem .bottomTextItem{
+    width: 340px;
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.bottomTextItem .bigCardTextItem{
+    width: 316px;
+    height: 34px;
+    font-size: 26px;
+    margin-top: 39px;
+}
+.bottomTextItem .smallCardTextItem{
+    width: 334px;
+    height: 84px;
+    font-size: 17px;
+    color: #545479;
+}
+
+
+
+.robertMayarCommentFrame{
+    margin: 0 auto;
+    width: 1040px;
+    height: 773px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    
+    /*border: 1px solid red;*/
+}
+
+.robertMayarCommentFrame .titleTextContainer{
+    width: 752px;
+    height: 110px;
+    font-size: 44px;
+    text-align: center;
+}
+
+.robertMayarCommentFrame .robertComment{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.robertMayarCommentFrame .robertCommentContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 1040px;
+    height: 383px;
+    
+    /*border: 1px solid aquamarine;*/
+}
+
+.robertCommentContainer .commentTextContainer{
+    width: 746px;
+    height: 383px;
+    /*border: 1px solid yellow;*/
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+}
+
+.qutesStyle{
+    width: 100px;
+    height: 100px;
+}
+
+.closedQuotesPosition{
+    margin-top: 183px;
+}
+
+.commentTextContainer .commentManyTextContainer{
+    width: 718px;
+    height: 135px;
+    font-size: 30px;
+    margin-top: 34px;
+    color: #080829;
+}
+
+
+.commentTextContainer .authorCommentNameContainer{
+    width: 373px;
+    height: 34px;
+    color: #080829;
+    margin-top: 24px;
+}
+
+.commentTextContainer .purpleRobertPosition{
+    width: 80px;
+    position: absolute;
+    height: auto;
+    bottom: 0;
+}
+
+.commentTextContainer .purpleMenAndArrowContainer{
+    width: 746px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+
+
+    /*border: 1px solid palegreen;*/
+}
+.commentTextContainer .arrowContainer{
+    width: 104px;
+    height: 80px;
+    display: flex;
+    gap: 8px;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.numbersContainer{
+    width: 1200px;
+    height: 303px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    
+    /*border: 1px solid rebeccapurple;*/
+}
+
+.numbersContainer .watchBtnContainer{
+    width: 220px;
+    height: 76px;
+    display: flex;
+    justify-content: center;
+}
+
+.numbersContainer .numContainer{
+    width: 793px;
+    height: 123px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.numContainer .numItem{
+    width: 211px;
+    height: 123px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.watchDemo {
+    width: 120px;
+    height: 30px;
+    font-size: 18px;
+    color: #080829;
+    /*margin-top: 25px;*/
+    margin: auto auto;
+}
+
+.numItem .bigNum{
+    width: 150px;
+    height: 58px;
+    font-size: 44px;
+}
+
+.numItem .smallNum{
+    width: 199px;
+    height: 54px;
+    color: #545479;
+    font-size: 17px;
+}
+
+
+
+
 
 
 
