@@ -894,6 +894,167 @@ footer {
 }
 
 
+.integratesFrameContainer{
+    width: 1200px;
+    height: 771px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+    /*border: 1px solid red;*/
+}
+
+.integratesFrameContainer .integratesTextItemContainer{
+    width: 704px;
+    height: 110px;
+    font-size: 47px;
+    color: #080829;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.integratesTextItemContainer .stupidText{
+    width: 476px;
+    height: 112px;
+    font-size: 47px;
+    color: #080829;
+    line-style: 1.3;
+    margin: 0;
+}
+
+
+.integratesFrameContainer .integrationIconsContainer{
+    display: flex;
+    width: 1200px;
+    height: 381px;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 80px;
+}
+.integrationIconsContainer .iconsLineContainer{
+    width: 1200px;
+    height: 179px;
+    display: flex;
+    gap: 88px;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconsLineContainer .iconsItemContainer{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iconsLineContainer .lowerIcon{
+    margin-top: 40px;
+}
+
+.bottomLine{
+    gap: 69px;
+}
+
+
+.aquaPointTest{
+    margin-left: 1270px;
+}
+
+
+.readCardContainer{
+    width: 1200px;
+    height: 880px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    
+    
+    /*border: 1px solid red;*/
+}
+
+
+.readCardContainer .readTextContainer{
+    width: 808px;
+    height: 55px;
+    font-size: 43px;
+    text-align: center;
+    
+    
+    /*border: 1px solid gold;*/
+}
+
+.readCardContainer .readCardItemContainer{
+    width: 1200px;
+    height: 485px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.readCardItemContainer .readCardItem{
+    width: 360px;
+    height: 486px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+.readCardItem .textTag{
+    display: flex;
+    width: 113px;
+    height: 34px;
+    font-size: 16px;
+    background-color: #A259FF4D;
+    color: #080829;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    opacity: 30;
+    margin-top: 31px;
+}
+
+.readCardItem  .textDescription{
+    width: 330px;
+    height: 78px;
+    font-size: 24px;
+    color: #080829;
+    text-align: start;
+    margin-top: 27px;
+}
+
+.readCardItem .cardLine{
+    border: none;
+    width: 360px;
+    height: 1px;
+    background-color: #080829;
+    opacity: 30%;
+}
+.readCardItem .dateCardText{
+    width: 215px;
+    height: 18px;
+    font-size: 16px;
+    text-align: start;
+    color: #080829;
+    margin-top: -15px;
+}
+
+.readCardItem .dot{
+    font-size: 50px;
+    font-family: sans-serif;
+    color: #080829;
+ 
+    
+    border-bottom: 1px solid #E0E0E0;
+}
+
+
 
 
 
