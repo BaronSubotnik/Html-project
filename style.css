@@ -2,29 +2,34 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    transition: 0.4s;
+    transition: 0.4s ease-in-out;
 }
 
-.navBar{
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
+.navBar {
     display: flex;
     align-items: center;
     gap: 20px;
     position: sticky;
     top: 100px;
     width: 100%;
-    /*max-width: 1296px;*/
     height: 101px;
     justify-content: space-between;
-    /*margin: 0 auto;*/
     padding: 0 220px;
 }
-.logo{
+
+.logo {
     margin-left: 50px;
     width: 150px;
     height: 45px;
 }
 
-.navItems{
+.navItems {
     display: flex;
     align-items: center;
     gap: 50px;
@@ -33,81 +38,82 @@
     margin-right: 50px;
     margin-top: 20px;
 }
-.cartLogo{
+
+.cartLogo {
     width: 17px;
     height: 17px;
 
 }
 
-.navTextSizeOrShrift{
+.navTextSizeOrShrift {
     font-size: 17px;
-    font-family:'Plus Jakarta Sans', Times, serif
+    font-family: 'Plus Jakarta Sans', Times, serif
 }
 
-.cartItem{
+.cartItem {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.SingUpBtnTextStyle{
+.SingUpBtnTextStyle {
     font-size: 18px;
-    font-family:'Plus Jakarta Sans', Times, serif
+    font-family: 'Plus Jakarta Sans', Times, serif
 }
 
-.SingUpBTN{
+.SingUpBTN {
     width: 219px;
     height: 61px;
-    background-color: #F5F5F5;
+    background-color: white;
     border: 1px solid #707371;
     border-radius: 15px;
+    cursor: pointer;
 }
 
-.rightBar{
+.rightBar {
     display: flex;
     align-items: center;
     gap: 15px;
 }
 
-.refNoColor{
+.refNoColor {
     text-decoration: none;
     color: inherit;
 }
 
-.footerLogo{    
+.footerLogo {
     width: 152px;
     height: 46px;
-    
+    margin-left: -20px;
 }
 
-.footerContainer{
+.footerContainer {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
     max-width: 1296px;
-    margin: 0 auto;
-    
-    
+    margin: 100px auto 0 auto;
+
 }
 
-.textFooterHeadLine{
+.textFooterHeadLine {
     text-transform: uppercase;
     font-size: 18px;
-    font-family:'Plus Jakarta Sans', Times, serif;
+    font-family: 'Plus Jakarta Sans', Times, serif;
 }
 
-.textItem{
+.textItem {
     font-size: 19px;
-    font-family:'Plus Jakarta Sans', Times, serif;
+    font-family: 'Plus Jakarta Sans', Times, serif;
 }
 
-.itemDisplay{
+.itemDisplay {
     display: flex;
     align-items: center;
     gap: 5px;
 }
 
-.footerColumn{
+.footerColumn {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -115,18 +121,18 @@
 
 }
 
-.footerColumns{
+.footerColumns {
     display: flex;
     gap: 80px;
 }
 
-.footerIconsDisplay{
+.footerIconsDisplay {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-.footerIcon{
+.footerIcon {
     width: 22px;
     height: 20px;
 }
@@ -136,35 +142,36 @@ footer {
     padding: 80px 20px 0px 20px;
 }
 
-.footerBottom{
+.footerBottom {
     display: flex;
     align-items: center;
     justify-content: space-between;
     max-width: 1296px;
     width: 100%;
     margin: 120px auto 40px auto;
-    
+
 }
 
-.footerBottomTextStyle{
+.footerBottomTextStyle {
     font-size: 16px;
-    font-family:'Plus Jakarta Sans', Times, serif;
+    font-family: 'Plus Jakarta Sans', Times, serif;
 }
 
-.textCurrentFontFamily{
-    font-family:'Plus Jakarta Sans', sans-serif;
+. {
+    font-family: 'Plus Jakarta Sans', sans-serif;
     font-style: normal;
     font-optical-sizing: auto;
 }
-.textSize63{
+
+.textSize63 {
     font-size: 63px;
 }
 
-.textSize18{
+.textSize18 {
     font-size: 18px;
 }
 
-.oneFrame{
+.oneFrame {
     display: flex;
     align-items: center;
     gap: 180px;
@@ -174,10 +181,9 @@ footer {
     max-height: 761px;
     padding-top: 40px;
     margin: 0 auto;
-    /*border: 1px solid red;*/
 }
 
-.leftFrame{
+.leftFrame {
     max-width: 500px;
     max-height: 531px;
     display: flex;
@@ -187,47 +193,47 @@ footer {
     gap: 30px;
     margin-top: 40px;
 
-    /*border: 1px solid red;*/
 }
 
-.startSignBTN{
+.startSignBTN {
     width: 240px;
     height: 59px;
     background-color: #3F53D8;
     border-radius: 15px;
     border: 1px solid white;
+    cursor: pointer;
 }
 
-.textColorWhite{
+.textColorWhite {
     color: white;
 }
 
-.btnContainer{
+.btnContainer {
     display: flex;
     align-items: center;
-    
+
     gap: 20px;
     width: 100%;
 }
 
-.noCreditCart{
+.noCreditCart {
     max-width: 181px;
     height: auto;
     object-fit: contain;
 }
 
-.rightFrame{
+.rightFrame {
     position: relative;
     width: 600px;
     height: 700px;
-    /*border: 1px solid green;*/
+
 }
 
-.itemInRightFrame{
+.itemInRightFrame {
     position: absolute;
 }
 
-.statisticImg{
+.statisticImg {
     width: 440px;
     height: 382px;
     top: 100px;
@@ -235,7 +241,7 @@ footer {
     z-index: 1;
 }
 
-.randomMen{
+.randomMen {
     width: 228px;
     height: 401px;
     top: 235px;
@@ -243,32 +249,32 @@ footer {
     z-index: 5;
 }
 
-.managerUser{
+.managerUser {
     width: 319px;
     height: 155px;
-    top:520px;
+    top: 520px;
     left: 10px;
     z-index: 1;
 }
 
-.mensSize{
+.mensSize {
     width: 90px;
     height: 90px;
 }
 
-.redMen{
+.redMen {
     top: 30px;
-    left:485px;
+    left: 485px;
     z-index: 1;
 }
 
-.blueMen{
+.blueMen {
     top: 190px;
     left: -10px;
     z-index: 3;
 }
 
-.pointPerple{
+.pointPerple {
     width: 16px;
     height: 16px;
 
@@ -277,7 +283,7 @@ footer {
     z-index: 1;
 }
 
-.sponsors{
+.sponsors {
     margin-top: 70px;
     margin-bottom: 50px;
     display: flex;
@@ -286,21 +292,21 @@ footer {
     gap: 24px;
 }
 
-.text22px{
+.text22px {
     font-size: 22px;
 }
 
 
-.sponsorsIconContainer{
+.sponsorsIconContainer {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 27px;
 
-    
+
 }
 
-.featuresAndResultsContainer{
+.featuresAndResultsContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -310,11 +316,10 @@ footer {
     height: 885px;
     margin: 50px auto 0 auto;
 
-    /*border: 1px solid red;*/
-    
+
 }
 
-.featuresAndResultsContainer .textItem{
+.featuresAndResultsContainer .textItem {
     max-width: 612px;
     max-height: 135px;
     margin-top: 100px;
@@ -325,46 +330,46 @@ footer {
     justify-content: center;
     text-align: center;
 
-    /*border: 1px solid red;*/
-    
+
 }
 
-.text43px{
+.text43px {
     font-size: 43px;
 }
 
-.text42px{
+.text42px {
     font-size: 42px;
 }
 
-.textItem .textMini{
+.textItem .textMini {
     color: #545479;
     width: 554px;
     height: 58px;
 }
-.textItem .textBig{
+
+.textItem .textBig {
     width: 605px;
     height: 79px;
 }
 
 
-.featuresAndResultsContainer .iconsItems{
+.featuresAndResultsContainer .iconsItems {
     width: 1200px;
     height: 490px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /*border: 1px solid red;*/
+
 }
 
-.iconsItems .iconItemLine{
+.iconsItems .iconItemLine {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 1200px;
 }
 
-.iconItemLine .iconItem{
+.iconItemLine .iconItem {
     width: 300px;
     height: 245px;
     display: flex;
@@ -373,19 +378,19 @@ footer {
     flex-direction: column;
     gap: 31px;
 
-    
+
 }
 
-.iconItem .icon{
+.iconItem .icon {
     height: 80px;
     width: 80px;
 }
 
-.textSize24{
+.textSize24 {
     font-size: 24px;
 }
 
-.collaborateFrameContainer{
+.collaborateFrameContainer {
     width: 1200px;
     height: 504px;
     margin: 180px auto;
@@ -393,96 +398,84 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
-    /*border: 1px solid red;*/
+
 }
-.collaborateFrameContainer .calloborateLeftFrame{
+
+.collaborateFrameContainer .calloborateLeftFrame {
     position: relative;
     width: 600px;
     height: 504px;
-    
-    
-    /*border: 1px solid blue;*/
-    /*margin-top: 0;
-    margin-right: 700px;*/
+
 }
 
 
-
-.calloborateLeftFrame .temlateImageMain{
+.calloborateLeftFrame .temlateImageMain {
     position: absolute;
     width: 498px;
     height: auto;
     z-index: 2;
-    /*border: 1px solid green;*/
+
 }
 
-.calloborateLeftFrame .Circle{
+.calloborateLeftFrame .Circle {
     position: absolute;
     z-index: 1;
     top: 3px;
     left: 50px;
-    
 }
 
-.calloborateLeftFrame .InvitePeople{
+.calloborateLeftFrame .InvitePeople {
     position: absolute;
-    top: 292px;  
+    top: 292px;
     left: 285px;
     z-index: 5;
 }
-.calloborateLeftFrame .yellowPoint{
+
+.calloborateLeftFrame .yellowPoint {
     position: absolute;
     top: 180px;
     left: 614px;
     z-index: 10;
 }
 
-.collaborateFrameContainer .calloborateRightFrame{
+.collaborateFrameContainer .calloborateRightFrame {
     display: flex;
     width: 432px;
     height: 481px;
     flex-direction: column;
     align-items: flex-start;
-    
-    /*border: 1px solid aquamarine;*/
 }
 
-.calloborateRightFrame .calloborateBigTexItem{
+.calloborateRightFrame .calloborateBigTexItem {
     width: 432px;
     height: 134px;
     text-align: left;
     padding-right: 20px;
-    
-    /*border: 1px solid orange;*/
 }
 
 
-
-.calloborateRightFrame .calloborateMiniTextItem{
+.calloborateRightFrame .calloborateMiniTextItem {
     width: 402px;
     height: 58px;
     color: #545479;
 }
 
-.calloborateRightFrame .calloborateListTextItem{
+.calloborateRightFrame .calloborateListTextItem {
     margin-top: 27px;
     width: 432px;
     height: 152px;
     padding-left: 36px;
     display: flex;
     flex-direction: column;
-    gap:16px;
+    gap: 16px;
     list-style: none;
-    
-    
 }
 
-.textSize16{
+.textSize16 {
     font-size: 16px;
 }
 
-.calloborateRightFrame .calloborationBtn{
+.calloborateRightFrame .calloborationBtn {
     width: 174px;
     height: 56px;
     background-color: #3F53D8;
@@ -491,51 +484,43 @@ footer {
     font-size: 19px;
     margin-top: auto;
     color: white;
+    cursor: pointer;
 }
 
 
-
-.buildFrameContainer{
+.buildFrameContainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 1200px;
     height: 573px;
     margin: 280px auto;
-    
-    
-    /*border: 1px solid red;*/
 }
 
-.buildFrameContainer .buildLeftFrame{
+.buildFrameContainer .buildLeftFrame {
     width: 432px;
     height: 463px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    
-    /*border: 1px solid green;*/
 }
-.buildLeftFrame .bigTextItem{
+
+.buildLeftFrame .bigTextItem {
     width: 432px;
     height: 110px;
-    
     display: flex;
     align-items: flex-start;
-    
 }
 
-.buildLeftFrame .smallTextItem{
+.buildLeftFrame .smallTextItem {
     width: 414px;
     height: 87px;
-
     display: flex;
     align-items: flex-start;
     margin-top: 25px;
-    
 }
 
-.buildLeftFrame .yellowMenItem{
+.buildLeftFrame .yellowMenItem {
     width: 432px;
     height: 90px;
     display: flex;
@@ -543,7 +528,7 @@ footer {
     margin-top: 43px;
 }
 
-.yellowMenItem .yellowTextItem{
+.yellowMenItem .yellowTextItem {
     width: 318px;
     height: 90px;
     display: flex;
@@ -553,43 +538,39 @@ footer {
     margin-left: 24px;
 }
 
-.textSize15{
+.textSize15 {
     font-size: 15px;
 }
 
-.buildLeftFrame .buildLearnBtn{
+.buildLeftFrame .buildLearnBtn {
     width: 174px;
     height: 59px;
-    
     border: 1px solid white;
     border-radius: 14px;
     background-color: #3F53D8;
     color: white;
     margin-top: 48px;
+    cursor: pointer;
 }
 
-.buildLeftFrame .yellowPointItem{
+.buildLeftFrame .yellowPointItem {
     position: relative;
     left: 308px;
     top: 14px;
-    
 }
 
-.buildFrameContainer .buildRightFrame{
+.buildFrameContainer .buildRightFrame {
     position: relative;
-    
     width: 624px;
     height: 573px;
-    
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
     margin-top: -170px;
     margin-left: 245px;
-
 }
 
-.accesFrameContainer{
+.accesFrameContainer {
     position: relative;
     width: 1200px;
     height: 623px;
@@ -597,51 +578,44 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-    
-
 }
 
-.accesFrameContainer .imageLeftFrame{
+.accesFrameContainer .imageLeftFrame {
     width: 623px;
     height: 623px;
-    
-    
 }
 
-.accesFrameContainer .accessRightFrame{
+.accesFrameContainer .accessRightFrame {
     width: 432px;
     height: 534px;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
     gap: 10px;
-
 }
 
-.accessRightFrame .accesbigTextItem{
+.accessRightFrame .accesbigTextItem {
     width: 297px;
     height: 112px;
     font-size: 48px;
 }
 
-.accessRightFrame .accesTwoBigTextItem{
+.accessRightFrame .accesTwoBigTextItem {
     width: 355px;
     height: 112px;
     font-size: 43px;
 }
 
-.accessRightFrame .smallAccesTextItem{
+.accessRightFrame .smallAccesTextItem {
     margin-top: 26px;
     width: 425px;
     height: 87px;
     font-size: 17px;
     color: #545479;
-
 }
 
 
-.accessRightFrame .line{
+.accessRightFrame .line {
     border: none;
     width: 432px;
     height: 1px;
@@ -650,29 +624,28 @@ footer {
     margin-top: 23px;
 }
 
-.accessRightFrame .logoSponsors{
+.accessRightFrame .logoSponsors {
     display: flex;
     width: 432px;
     height: 141px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
 
-.logoSponsors .logoSponsorsLine{
+.logoSponsors .logoSponsorsLine {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 27px;
 }
 
-.logoSponsorsLine .logoItem{
+.logoSponsorsLine .logoItem {
     width: 126px;
     height: 71px;
 }
 
-.purplePoint{
+.purplePoint {
     position: absolute;
     top: 4370px;
     left: 1534px;
@@ -680,7 +653,7 @@ footer {
 }
 
 
-.issimpleFrameContainer{
+.issimpleFrameContainer {
     width: 1200px;
     height: 800px;
     display: flex;
@@ -689,33 +662,30 @@ footer {
     justify-content: center;
     margin: 80px auto 0 auto;
     gap: 80px;
-    
-    /*border: 1px solid red;*/
 }
 
-.issimpleFrameContainer .topTextItem{
+.issimpleFrameContainer .topTextItem {
     font-size: 43px;
     width: 609px;
     height: 55px;
-    
 }
 
-.issimpleFrameContainer .bottomImageAndTextContainer{
+.issimpleFrameContainer .bottomImageAndTextContainer {
     display: flex;
     width: 1200px;
     height: 464px;
     justify-content: space-between;
     align-items: center;
-    /*border: 1px solid aquamarine;*/
 }
 
-.bottomImageAndTextContainer .bottomItem{
+.bottomImageAndTextContainer .bottomItem {
     display: flex;
     width: 340px;
     height: 465px;
     flex-direction: column;
 }
-.bottomItem .bottomTextItem{
+
+.bottomItem .bottomTextItem {
     width: 340px;
     height: 175px;
     display: flex;
@@ -724,22 +694,21 @@ footer {
     gap: 20px;
 }
 
-.bottomTextItem .bigCardTextItem{
+.bottomTextItem .bigCardTextItem {
     width: 316px;
     height: 34px;
     font-size: 26px;
     margin-top: 39px;
 }
-.bottomTextItem .smallCardTextItem{
+
+.bottomTextItem .smallCardTextItem {
     width: 334px;
     height: 84px;
     font-size: 17px;
     color: #545479;
 }
 
-
-
-.robertMayarCommentFrame{
+.robertMayarCommentFrame {
     margin: 0 auto;
     width: 1040px;
     height: 773px;
@@ -748,52 +717,49 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 80px;
-    
-    /*border: 1px solid red;*/
+
 }
 
-.robertMayarCommentFrame .titleTextContainer{
+.robertMayarCommentFrame .titleTextContainer {
     width: 752px;
     height: 110px;
     font-size: 44px;
     text-align: center;
 }
 
-.robertMayarCommentFrame .robertComment{
+.robertMayarCommentFrame .robertComment {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.robertMayarCommentFrame .robertCommentContainer{
+.robertMayarCommentFrame .robertCommentContainer {
     display: flex;
     justify-content: space-between;
     width: 1040px;
     height: 383px;
-    
-    /*border: 1px solid aquamarine;*/
+
 }
 
-.robertCommentContainer .commentTextContainer{
+.robertCommentContainer .commentTextContainer {
     width: 746px;
     height: 383px;
-    /*border: 1px solid yellow;*/
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
     position: relative;
 }
 
-.qutesStyle{
+.qutesStyle {
     width: 100px;
     height: 100px;
 }
 
-.closedQuotesPosition{
+.closedQuotesPosition {
     margin-top: 183px;
 }
 
-.commentTextContainer .commentManyTextContainer{
+.commentTextContainer .commentManyTextContainer {
     width: 718px;
     height: 135px;
     font-size: 30px;
@@ -802,32 +768,30 @@ footer {
 }
 
 
-.commentTextContainer .authorCommentNameContainer{
+.commentTextContainer .authorCommentNameContainer {
     width: 373px;
     height: 34px;
     color: #080829;
     margin-top: 24px;
 }
 
-.commentTextContainer .purpleRobertPosition{
+.commentTextContainer .purpleRobertPosition {
     width: 80px;
     position: absolute;
     height: auto;
     bottom: 0;
 }
 
-.commentTextContainer .purpleMenAndArrowContainer{
+.commentTextContainer .purpleMenAndArrowContainer {
     width: 746px;
     height: 80px;
     display: flex;
     justify-content: space-between;
     position: absolute;
     bottom: 0;
-
-
-    /*border: 1px solid palegreen;*/
 }
-.commentTextContainer .arrowContainer{
+
+.commentTextContainer .arrowContainer {
     width: 104px;
     height: 80px;
     display: flex;
@@ -836,25 +800,23 @@ footer {
     justify-content: center;
 }
 
-.numbersContainer{
+.numbersContainer {
     width: 1200px;
     height: 303px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    
-    /*border: 1px solid rebeccapurple;*/
 }
 
-.numbersContainer .watchBtnContainer{
+.numbersContainer .watchBtnContainer {
     width: 220px;
     height: 76px;
     display: flex;
     justify-content: center;
 }
 
-.numbersContainer .numContainer{
+.numbersContainer .numContainer {
     width: 793px;
     height: 123px;
     display: flex;
@@ -862,7 +824,7 @@ footer {
     align-items: center;
 }
 
-.numContainer .numItem{
+.numContainer .numItem {
     width: 211px;
     height: 123px;
     display: flex;
@@ -876,17 +838,16 @@ footer {
     height: 30px;
     font-size: 18px;
     color: #080829;
-    /*margin-top: 25px;*/
     margin: auto auto;
 }
 
-.numItem .bigNum{
+.numItem .bigNum {
     width: 150px;
     height: 58px;
     font-size: 44px;
 }
 
-.numItem .smallNum{
+.numItem .smallNum {
     width: 199px;
     height: 54px;
     color: #545479;
@@ -894,7 +855,7 @@ footer {
 }
 
 
-.integratesFrameContainer{
+.integratesFrameContainer {
     width: 1200px;
     height: 771px;
     margin: 0 auto;
@@ -902,22 +863,19 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-    
-    /*border: 1px solid red;*/
 }
 
-.integratesFrameContainer .integratesTextItemContainer{
+.integratesFrameContainer .integratesTextItemContainer {
     width: 704px;
     height: 110px;
     font-size: 47px;
     color: #080829;
     display: flex;
     justify-content: center;
-    
+
 }
 
-.integratesTextItemContainer .stupidText{
+.integratesTextItemContainer .stupidText {
     width: 476px;
     height: 112px;
     font-size: 47px;
@@ -927,7 +885,7 @@ footer {
 }
 
 
-.integratesFrameContainer .integrationIconsContainer{
+.integratesFrameContainer .integrationIconsContainer {
     display: flex;
     width: 1200px;
     height: 381px;
@@ -935,7 +893,8 @@ footer {
     gap: 40px;
     margin-top: 80px;
 }
-.integrationIconsContainer .iconsLineContainer{
+
+.integrationIconsContainer .iconsLineContainer {
     width: 1200px;
     height: 179px;
     display: flex;
@@ -944,28 +903,29 @@ footer {
     align-items: center;
 }
 
-.iconsLineContainer .iconsItemContainer{
+.iconsLineContainer .iconsItemContainer {
     width: 150px;
     height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.iconsLineContainer .lowerIcon{
+
+.iconsLineContainer .lowerIcon {
     margin-top: 40px;
 }
 
-.bottomLine{
+.bottomLine {
     gap: 69px;
 }
 
 
-.aquaPointTest{
+.aquaPointTest {
     margin-left: 1270px;
 }
 
 
-.readCardContainer{
+.readCardContainer {
     width: 1200px;
     height: 880px;
     margin: 0 auto;
@@ -974,39 +934,32 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 80px;
-    
-    
-    /*border: 1px solid red;*/
 }
 
 
-.readCardContainer .readTextContainer{
+.readCardContainer .readTextContainer {
     width: 808px;
     height: 55px;
     font-size: 43px;
     text-align: center;
-    
-    
-    /*border: 1px solid gold;*/
 }
 
-.readCardContainer .readCardItemContainer{
+.readCardContainer .readCardItemContainer {
     width: 1200px;
     height: 485px;
     display: flex;
     justify-content: space-between;
 }
 
-.readCardItemContainer .readCardItem{
+.readCardItemContainer .readCardItem {
     width: 360px;
     height: 486px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    
 }
 
-.readCardItem .textTag{
+.readCardItem .textTag {
     display: flex;
     width: 113px;
     height: 34px;
@@ -1020,7 +973,7 @@ footer {
     margin-top: 31px;
 }
 
-.readCardItem  .textDescription{
+.readCardItem .textDescription {
     width: 330px;
     height: 78px;
     font-size: 24px;
@@ -1029,7 +982,7 @@ footer {
     margin-top: 27px;
 }
 
-.readCardItem .cardLine{
+.readCardItem .cardLine {
     border: none;
     width: 360px;
     height: 1px;
@@ -1037,7 +990,8 @@ footer {
     background-color: #080829;
     opacity: 30%;
 }
-.readCardItem .dateCardText{
+
+.readCardItem .dateCardText {
     width: 215px;
     height: 18px;
     font-size: 16px;
@@ -1046,37 +1000,35 @@ footer {
     margin-top: -10px;
 }
 
-.readCardItem .dot{
+.readCardItem .dot {
     font-size: 50px;
     font-family: sans-serif;
     color: #080829;
- 
-    
+
+
     border-bottom: 1px solid #E0E0E0;
 }
 
-
-.lastFrameContainer{
+.lastFrameContainer {
     position: relative;
     margin: 0 auto;
     width: 1440px;
     height: 676px;
-    
+
     background-color: #080829;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    /*border: 1px solid red;*/
 }
 
-.lastFrameContainer .topImageStyle{
+.lastFrameContainer .topImageStyle {
     position: absolute;
     top: 0;
     left: 0;
 }
-.lastFrameContainer .aaImagePosition{
+
+.lastFrameContainer .aaImagePosition {
     position: absolute;
     width: 277px;
     height: 253px;
@@ -1084,72 +1036,61 @@ footer {
     right: 0;
 }
 
-.lastFrameContainer .noCreditCart{
+.lastFrameContainer .noCreditCart {
     position: absolute;
     top: 460px;
     left: 870px;
-    /*border: 1px solid red;*/
 }
 
-.lastFrameContainer .lastFrameTextContainer{
+.lastFrameContainer .lastFrameTextContainer {
     width: 886px;
     height: 356px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-
-    /*border: 1px solid aquamarine;*/
 }
 
-.lastFrameTextContainer .textTop{
+.lastFrameTextContainer .textTop {
     width: 813px;
     height: 80px;
     align-items: center;
-    
+
     font-size: 64px;
     color: white;
-    
-    /*border: 1px solid gold;*/
 }
-.lastFrameTextContainer .textCenter{
+
+.lastFrameTextContainer .textCenter {
     width: 849px;
     height: 159px;
     font-size: 66px;
     color: white;
     text-align: center;
-    
-    /*border: 1px solid white;*/
-    
 }
 
-.lastFrameTextContainer .btnBottom{
+.lastFrameTextContainer .btnBottom {
     border: 1px solid #080829;
     margin-top: 65px;
 }
 
 
-.lastFrameContainer .pointYellow{
+.lastFrameContainer .pointYellow {
     position: absolute;
     width: 16px;
     height: 16px;
-    
-    left:144px;
+    left: 144px;
     top: 520px;
     z-index: 5;
-    
-
 }
 
-.lastFrameContainer .polyCircle{
+.lastFrameContainer .polyCircle {
     position: absolute;
     z-index: 5;
     top: 0;
     left: 1226px;
 }
 
-.pointYellow img{
+.pointYellow img {
     width: 100%;
     height: 100%;
     display: block;
